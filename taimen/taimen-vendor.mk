@@ -72,7 +72,6 @@ PRODUCT_PACKAGES += \
     ims \
     vzw_msdc_api \
     CNEService \
-    CarrierConfig \
     CarrierServices \
     CarrierSetup \
     ConnMO \
@@ -92,8 +91,8 @@ PRODUCT_PACKAGES += \
     SprintHM \
     TimeService \
     VzwOmaTrigger \
-    WfcActivation \
-    MyVerizonServices \
+#   WfcActivation \
+#   MyVerizonServices \
     datastatusnotification \
     obdm_stub \
     qcrilmsgtunnel \
@@ -104,4 +103,5 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     embmslibrary \
     rcsimssettings \
-    vendor.qti.qcril.am-V1.0-java
+    vendor.qti.qcril.am-V1.0-java \
+    QAS_DVC_MSP_VZW
